@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accounting-Mcqs</title>
+    <link rel="icon" href="img/icon.png" type="image/png" sizes="16x16">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <div class="">
+        <h2><strong> Accounting Mcqs | Quiz, Multiple Choice Questions Test </strong></h2>
+        <p> Accounting Multiple Choice Questions(MCQs) Test. The following accounting quiz are from <strong> accounting theory, basics of accounting, general accounting, financial accounting</strong> and <strong>cost accounting</strong>.</p>
+    </div>
+    <div id="quizContainer" class="container">
+        <div class="title">FEATURED ACCOUNTING MCQs</div>
+        <div id="question" class="question"></div>
+        <label class="option"> 
+            <input type="radio" name="option" value="1">
+            <span id="opt1"></span>
+        </label>
+        <label class="option"> 
+            <input type="radio" name="option" value="2">
+            <span id="opt2"></span>
+        </label>
+        <label class="option"> 
+            <input type="radio" name="option" value="3">
+            <span id="opt3"></span>
+        </label>
+        <label class="option"> 
+            <input type="radio" name="option" value="4">
+            <span id="opt4"></span>
+        </label>
+        <button id="nextButton" class="next-btn" onclick="loadNextQuestion();">Next Question</button>
+    </div>
+    <div id="result" class="container result" style="display: none;">
+    </div>
+
+
+
+    <!-- JS -->
+    <script src="app.js"></script>
+    <script src="question.js"></script>
+
+    <!-- jQuery,Popper.js,Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
