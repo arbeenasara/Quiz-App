@@ -13,12 +13,12 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
-    <div class="">
+    <div class="container-fluid">
         <h2><strong> Accounting Mcqs | Quiz, Multiple Choice Questions Test </strong></h2>
         <p> Accounting Multiple Choice Questions(MCQs) Test. The following accounting quiz are from <strong> accounting theory, basics of accounting, general accounting, financial accounting</strong> and <strong>cost accounting</strong>.</p>
     </div>
-    <div id="quizContainer" class="container">
-        <div class="title">FEATURED ACCOUNTING MCQs</div>
+    <div id="quizContainer" class="container box">
+        <div class="title">ACCOUNTING QUIZ</div>
         <div id="question" class="question"></div>
         <label class="option"> 
             <input type="radio" name="option" value="1">
@@ -36,16 +36,18 @@
             <input type="radio" name="option" value="4">
             <span id="opt4"></span>
         </label>
+        <br>
         <button id="nextButton" class="next-btn" onclick="loadNextQuestion();">Next Question</button>
     </div>
-    <div id="result" class="container result" style="display: none;">
+    <div id="result" class="container result-box result" style="display: none;">
     </div>
 
 
 
     <!-- JS -->
-    <script src="app.js"></script>
     <script src="question.js"></script>
+    <script src="app.js"></script>
+    
 
     <!-- jQuery,Popper.js,Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
